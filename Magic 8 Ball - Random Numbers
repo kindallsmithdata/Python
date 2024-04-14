@@ -1,4 +1,4 @@
-#Background - In this project, I used IF/ELIF/ELSE statements to evaluate a user's question to a Magic 8-Ball using a pre-populated random import in Python. The program 
+#Background - In this project, I use CONTROL FLOW and IF/ELIF/ELSE statements to evaluate a user's question to a Magic 8-Ball using a pre-populated random import in Python. The program 
 assigns a random number (randint) to answer the user's question, then populates the output (answer) based on the random number assigned:
 
 #Random file is imported.
