@@ -12,6 +12,9 @@ OR
 
 weight = int(input("Enter package weight: "))
 
+Enter package weight:
+
+
 
 
 #Calculate Ground Shipping
