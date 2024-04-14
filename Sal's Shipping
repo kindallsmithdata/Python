@@ -1,0 +1,102 @@
+#Background - In this project, I used CONTROL FLOW and IF/ELIF/ELSE statements to evaluate the shipping costs for various sized packages. Ground, 
+Premium and Drone shipping costs are all calculated. This is code is useful for the consumer to compare shipping costs for packages and easily 
+determine the least expensive option. 
+
+#User inputs weight of package (manual)
+
+weight = ()
+
+OR
+
+###User could have also input weight through function usage prompt (depending on personal preference/program usage)
+
+weight = int(input("Enter package weight: "))
+
+
+
+#Calculate Ground Shipping
+
+if weight <= 2:
+  cost_ground = (weight * 1.50 + 20.00)
+  print(f'${cost_ground:.2f}')
+elif 2 < weight <= 6:
+  cost_ground = (weight * 3.00 + 20.00)
+  print(f'${cost_ground:.2f}')
+elif 6 < weight <= 10:
+  cost_ground = (weight * 4.00 + 20.00)
+  print(f'${cost_ground:.2f}')
+else:
+  cost_ground = (weight * 14.25 + 20.00)
+  print(f'${cost_ground:.2f}')
+
+
+
+#Calculate Ground Premium Shipping
+
+cost_ground_premium = 125.00
+print(f'Ground Shipping Premium ${cost_ground_premium:.2f}')
+
+
+
+#Calculate Drone Shipping
+
+if weight <= 2:
+  cost_drone = (weight * 4.50 + 0.00)
+  print(f'${cost_drone:.2f}')
+elif 2 < weight <= 6:
+  cost_drone = (weight * 9.00 + 0.00)
+  print(f'${cost_drone:.2f}')
+elif 6 < weight <= 10:
+  cost_drone = (weight * 12.00 + 0.00)
+  print(f'${cost_drone:.2f}')
+else:
+  cost_drone = (weight * 14.25 + 0.00)
+  print(f'${cost_drone:.2f}')
+  
+
+
+
+#Calculate the cost of a package that weighs 8.4 pounds to ship with normal GROUND SHIPPING:
+
+$53.60
+
+
+
+#Calculate the cost of GROUND SHIPPING PREMIUM:
+
+$125.00
+
+
+
+#Calculate the cost of a package that weighs 1.5 pounds with DRONE SHIPPING: 
+
+$6.75
+
+
+
+#What is the cheapest method of shipping a 4.8 pound package and how much would it cost?
+
+Result (Output) = 
+
+$34.40 
+Ground Shipping Premium $125.00
+$43.20
+
+***For 4.8 pounds, GROUND SHIPPING is the cheapest option.
+
+
+
+
+#What is the cheapest method of shipping a 41.5 pound package and how much would it cost?
+
+Result (Output) =
+
+$217.12
+Ground Shipping Premium $125.00
+$591.38
+
+***For 41.5 pounds, GROUND PREMIUM SHIPPING is the cheapest option. 
+
+
+
+
