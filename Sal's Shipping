@@ -2,13 +2,14 @@
 Premium and Drone shipping costs are all calculated. This is code is useful for the consumer to compare shipping costs for packages and easily 
 determine the least expensive option. 
 
+
+
 #User inputs weight of package (manual)
 
 weight = ()
 
-OR
 
-###User could have also input weight through function usage prompt (depending on personal preference/program usage)
+# Hardcoded values for this tool. Could be input()...
 
 weight = int(input("Enter package weight: "))
 
